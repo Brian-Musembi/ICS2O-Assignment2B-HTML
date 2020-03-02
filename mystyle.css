@@ -1,0 +1,42 @@
+body{
+    background-color: linen;
+}
+
+h1{
+    text-align: center;
+    font-family: georgia;
+    color: maroon;
+}
+
+h2{
+    text-align: center;
+    font-family: georgia; 
+    color: darkcyan;
+}
+
+h3{
+    text-align: left;
+    font-family: serif; 
+}
+
+p {
+  font-size: 19px;
+  font-family: arial;
+}
+
+img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}

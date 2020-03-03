@@ -5,18 +5,21 @@ body{
 h1{
     text-align: center;
     font-family: georgia;
-    color: maroon;
+    color: black;
 }
 
 h2{
-    text-align: center;
-    font-family: georgia; 
-    color: darkcyan;
+  text-align: center;
+  font-family: georgia; 
+  color: darkcyan;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
 }
 
 h3{
     text-align: left;
     font-family: serif; 
+    text-size: 55px
 }
 
 p {
@@ -29,7 +32,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 25%;
 }
 
 div.sticky {
@@ -37,6 +40,6 @@ div.sticky {
   position: sticky;
   top: 0;
   padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
+  background-color: #DC143C;
+  border: 2px solid #8B0000;
 }
